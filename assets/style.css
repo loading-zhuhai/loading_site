@@ -1,12 +1,7 @@
 body{
 	text-align:left;
 	margin: 0px;
-<<<<<<< HEAD
-	background-color: black !important;
-	height: 100vh;
-=======
 	/* background-color: black !important; */
->>>>>>> 30f58939bb97bece5f8144f858f7d058772e008f
 	}
 
 .contact-body {
@@ -85,12 +80,7 @@ i{
 			background-color: black !important;
 		}
 
-<<<<<<< HEAD
-footer{
-
-=======
 	footer{
->>>>>>> 30f58939bb97bece5f8144f858f7d058772e008f
 		text-align:center;
 		padding: 10px 10px 0px 10px;
 		bottom: 0;
