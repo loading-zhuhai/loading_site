@@ -1,8 +1,12 @@
 body{
 	text-align:left;
 	margin: 0px;
+<<<<<<< HEAD
 	background-color: black !important;
 	height: 100vh;
+=======
+	/* background-color: black !important; */
+>>>>>>> 30f58939bb97bece5f8144f858f7d058772e008f
 	}
 
 .contact-body {
@@ -81,8 +85,12 @@ i{
 			background-color: black !important;
 		}
 
+<<<<<<< HEAD
 footer{
 
+=======
+	footer{
+>>>>>>> 30f58939bb97bece5f8144f858f7d058772e008f
 		text-align:center;
 		padding: 10px 10px 0px 10px;
 		bottom: 0;
@@ -90,6 +98,8 @@ footer{
 		/* height of the footer*/
 		height: 40px;
 		color: white;
+		position: absolute;
+
 }
 	/* Add a black background color to the top navigation */
 	.topnav {
@@ -129,6 +139,26 @@ footer{
 	color:  #8a2be2;
 }
 
+.contact-background-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/Keyboard.jpg');
+    height: 100vh;
+}
+
+.home-background-image{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/ComputerDark.jpg');
+    height: 100vh;
+}
+
+.transparent-black-overlay {
+    background-image: url('./pictures/000000-0.5.png');
+    background-size: cover;
+    background-repeat: repeat;
+	height: 100vh;
+}
 .teamPic{
 	height: 200px;
 	width: auto !important;
