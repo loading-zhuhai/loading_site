@@ -133,6 +133,10 @@ i{
 	color:  #8a2be2;
 }
 
+.purple-link{
+	color: #8a2be2;
+	text-decoration: none;
+}
 .contact-background-image{
     background-size: cover;
     background-repeat: no-repeat;
