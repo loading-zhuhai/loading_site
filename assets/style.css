@@ -2,8 +2,27 @@ body{
 	text-align:left;
 	margin: 0px;
 	background-color: black !important;
+	height: 100vh;
 	}
 
+.contact-body {
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-image: url('./pictures/Keyboard.jpg') !important;
+	}
+
+.home-body{
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: url('./pictures/ComputerDark.jpg') !important;
+}
+
+.transparent-black-bg {
+    background-image: url('./pictures/000000-0.5.png')  !important;
+    background-size: cover  !important;
+    background-repeat: repeat  !important;
+	height: 100vh;
+}	
 header{
 	padding: 10px;
 }
@@ -62,8 +81,8 @@ i{
 			background-color: black !important;
 		}
 
-	footer{
-		position: fixed;
+footer{
+
 		text-align:center;
 		padding: 10px 10px 0px 10px;
 		bottom: 0;
@@ -124,3 +143,4 @@ i{
 	color: #ba81ee;
 	text-align: center;
 }
+
