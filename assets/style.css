@@ -4,6 +4,10 @@ body{
 	/* background-color: black !important; */
 	}
 
+.black-body{
+	background-color: black;
+}
+
 .contact-body {
 		background-size: cover !important;
 		background-repeat: no-repeat !important;
