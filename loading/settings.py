@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'nathaniel',
     'joanne',
     'mo',
+    'rocky',
 ]
 
 MIDDLEWARE = [
