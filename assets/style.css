@@ -20,6 +20,12 @@ body{
 	background-image: url('./pictures/ComputerDark.jpg') !important;
 }
 
+.news-body{
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: url('./pictures/back.jpg') !important;
+}
+
 .transparent-black-bg {
     background-image: url('./pictures/000000-0.5.png')  !important;
     background-size: cover  !important;
@@ -148,6 +154,13 @@ i{
 	background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./pictures/ComputerDark.jpg');
+    height: 100vh;
+}
+
+.news-background-image{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./pictures/back.jpg');
     height: 100vh;
 }
 
