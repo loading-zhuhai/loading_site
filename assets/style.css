@@ -1,6 +1,7 @@
 body{
 	text-align:left;
 	margin: 0px;
+	height: 100vh;
 	/* background-color: black !important; */
 	}
 
@@ -92,11 +93,10 @@ i{
 
 	footer{
 		text-align:center;
-		padding: 10px 10px 0px 10px;
+		/* padding: 10px 10px 0px 10px; */
 		bottom: 0;
 		width: 100%;
 		/* height of the footer*/
-		height: 40px;
 		color: white;
 		position: absolute;
 
@@ -171,6 +171,18 @@ i{
     height: 100vh;
 }
 
+.landing-page-background-image{
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-color: #000000;
+    background-image: url('./pictures/clams-removebg.png');
+    height: 100vh;
+}
+
+/* .enter-background-image{
+	background-image: url('./pictures/big_perfect_all_violetAsset\ 9.png');
+	opacity: 0.2;
+} */
 /* .transparent-black-overlay {
     background-image: url('./pictures/000000-0.5.png');
     background-size: cover;
@@ -192,3 +204,14 @@ i{
 	text-align: center;
 }
 
+#landingPageLogo{
+	opacity: 0.1;
+	width: 360px;
+}
+
+#enterLink{
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
