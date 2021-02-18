@@ -143,10 +143,13 @@ i{
 	color: #8a2be2;
 	text-decoration: none;
 }
+
 .contact-background-image{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./pictures/Keyboard.jpg');
+	background-color: #00000078;
+	background-blend-mode: multiply;
     height: 100vh;
 }
 
@@ -154,22 +157,26 @@ i{
 	background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./pictures/ComputerDark.jpg');
+	background-color: #0000009c;
+	background-blend-mode: multiply;
     height: 100vh;
 }
 
 .news-background-image{
 	background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./pictures/back.jpg');
+	background-color: #000000f0;
+	background-blend-mode: overlay;
+    background-image: url('./pictures/ComputerChip.jpg');
     height: 100vh;
 }
 
-.transparent-black-overlay {
+/* .transparent-black-overlay {
     background-image: url('./pictures/000000-0.5.png');
     background-size: cover;
     background-repeat: repeat;
 	height: 100vh;
-}
+} */
 .teamPic{
 	height: 200px;
 	width: auto !important;
