@@ -35,8 +35,34 @@ body{
 }	
 header{
 	padding: 10px;
+	background-color: #000000;
 }
 
+#headerNav{
+	z-index: -100;
+	width: 100vw;
+}
+
+#headerNav.scroll{
+	position: fixed;
+	z-index: 100;
+}
+
+.fade-in {
+	animation: fadeIn ease 0.6s;
+	}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+	}
+
+/* #blackGradientBlock{
+	width: 100vw;
+	height: 200px;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, #00000000 0%, #000000 50%, #00000000 100%); 
+} */
 main{
 	padding: 10px;
 	}	
@@ -94,11 +120,12 @@ i{
 	footer{
 		text-align:center;
 		/* padding: 10px 10px 0px 10px; */
-		bottom: 0;
+		/* bottom: 0; */
 		width: 100%;
 		/* height of the footer*/
 		color: white;
-		position: absolute;
+		background-color: #000000;
+		/* position: absolute; */
 
 }
 	/* Add a black background color to the top navigation */
@@ -153,10 +180,21 @@ i{
     height: 100vh;
 }
 
+.landing-page-background-image{
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-color: #000000;
+    background-image: 
+		linear-gradient(180deg, #00000000 0%, #000000 98%), 
+		url('./pictures/clams-removebg.png');
+    height: 100vh;
+}
 .home-background-image{
 	background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./pictures/ComputerDark.jpg');
+	background-image: 
+		linear-gradient(180deg, #000000 0%, #00000000 50%), 
+		url('./pictures/ComputerDark.jpg');
 	background-color: #0000009c;
 	background-blend-mode: multiply;
     height: 100vh;
@@ -171,13 +209,7 @@ i{
     height: 100vh;
 }
 
-.landing-page-background-image{
-	background-size: cover;
-    background-repeat: no-repeat;
-	background-color: #000000;
-    background-image: url('./pictures/clams-removebg.png');
-    height: 100vh;
-}
+
 
 /* .enter-background-image{
 	background-image: url('./pictures/big_perfect_all_violetAsset\ 9.png');
