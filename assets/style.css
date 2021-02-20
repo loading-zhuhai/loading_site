@@ -24,7 +24,7 @@ body{
 .news-body{
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	background-image: url('./pictures/back.jpg') !important;
+	background-image: url('./pictures/back.jpg');
 }
 
 .transparent-black-bg {
