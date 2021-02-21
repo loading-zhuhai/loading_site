@@ -29,4 +29,6 @@ urlpatterns = [
     path('team/nathaniel/', include('nathaniel.urls')),
     path('team/mo/', include('mo.urls')),
     path('team/rocky/', include('rocky.urls')),
+    path('example/nate', include('nate_example.urls')),
+    path('example/joanne', include('joanne_example.urls')),
 ]
