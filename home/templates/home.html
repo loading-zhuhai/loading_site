@@ -34,18 +34,20 @@
 	</nav>
 </div>
 	
-	<section id = "landingPageSection" class = "landing-page-background-image">
-		<h1 class = "pt-5" style = "text-align: center;">%{loading: "Zhuhai"}</h1>
+	<!-- <section id = "landingPageSection" class = "landing-page-background-image"> -->
+		<section id = "landingPage" class = "landing-page">
+			<img src = "../../assets/pictures/clams-removebg.png" class = "landing-page-image">
+
 		<div style = "height: 60vh" class = "d-flex justify-content-center align-items-center">
-			<img id = "landingPageLogo"  src="../../assets/pictures/big_perfect_all_violetAsset%209.png">
-			<a class= "mt-3" id = "enterLink" href="http://localhost:8000/home/">Scroll down</a>
+			<img id = "landingPageLogo" class = "mt-4"  src="../../assets/pictures/big_perfect_all_violetAsset%209.png">
+			<h1 id = "landingPageH1" class = "pt-5" style = "text-align: center;">%{loading: "Zhuhai"}</h1>
 		</div>
 	</section>
 
 	<!-- <div id = "blackGradientBlock"></div> -->
 
 	<section id = "homeSection" class = "home-background-image">
-		<div class = "p-5" style = "text-align: center;">
+		<div class = "p-5" style = "text-align: center; padding-top: 100px !important">
 			<p>
 				The steps to success are actually just the steps of progression. No one is born at the top. Even when the top is reached it will be in the shadows of the past
 				without continual progression. Our future functions are made up of our present day variables. In short our future is our present. 
@@ -315,13 +317,14 @@
 <script>
 
 	const headerNav = document.getElementById('headerNav');
-	const landingPageSection = document.getElementById('landingPageSection');
+	const landingPage = document.getElementById('landingPage');
 	
 	headerNav.style = "display: none";
 	
 	window.addEventListener('scroll', function() {
 		let offset = window.pageYOffset;
-		if (offset > (landingPageSection.clientHeight * 0.5)) {
+
+		if (offset > (landingPage.clientHeight * 0.5)) {
 			headerNav.style = "display: block";
 			headerNav.classList.add('scroll');
 			headerNav.classList.add('fade-in');
