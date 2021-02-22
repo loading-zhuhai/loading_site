@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'mo',
     'rocky',
     'examples',
+    'nexamples',
 ]
 
 MIDDLEWARE = [
